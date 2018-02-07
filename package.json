@@ -1,13 +1,13 @@
 {
-    "name": "easyio-monitor",
+    "name": "proc-restarter",
     "version": "1.0.0",
     "description": "",
-    "main": "easyio-monitor.js",
+    "main": "proc-restarter.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "bin": {
-        "easyio-monitor": "./bin/easyio-monitor"
+        "proc-restarter": "./bin/proc-restarter"
     },
     "keywords": [],
     "author": "",
