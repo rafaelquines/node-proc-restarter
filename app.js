@@ -16,6 +16,7 @@ let verifyProccess = function() {
 }
 
 function init() {
+    Utils.daemonize();
     logger.info("EasyIO-Monitor started");
     logger.info('Running on ' + (Utils.isRpi() ? 'Raspberry PI' : 'PC'));
     setTimeout(verifyProccess, 0);
